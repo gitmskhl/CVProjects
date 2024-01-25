@@ -2,7 +2,11 @@
 
 - Computer Vision
     - [Flowers Recognition](#flowers-recognition)
+    - [Face Mask Detection](#face-mask-detection)
+    - [Vehicle segmentation](#vehicle-segmentation)
+    - [Face Detection](#face-detection)
 - NLP
+    - [Sentiment analysis for movie reviews](#sentiment-analysis-for-movie-reviews)
 
 
 ## Computer Vision
