@@ -2,9 +2,11 @@
 
 ## Computer Vision
 
-- [FlowersRecognition](khl/DLProjects/blob/main/FlowersRecognition.ipynb)
-some text
-- Car Segmentation
+- [Flowers Recognition](khl/DLProjects/blob/main/FlowersRecognition.ipynb)
+    - The implementation of it
+- [Car Segmentation](https://github.com/gitmskhl/DLProjects/blob/main/CarSegmentation.ipynb)
+
+ 
 
 
 
