@@ -16,6 +16,29 @@ Here is an example of how a trained neural network works:
 
 ![text](./images/flowers.png)
 
+### Face Mask Detection
+[solution using FasterRCNN](https://github.com/gitmskhl/DLProjects/blob/main/FaceMaskDetectionFasterRCNN.ipynb) and [solution using YOLOv8](https://github.com/gitmskhl/DLProjects/blob/main/FaceMaskDetectionYOLO.ipynb)
+
+It is necessary to detect people’s faces from photographs and classify them into 3 groups:
+1. Those who wear a mask
+2. Those who wear a mask incorrectly
+3. Those who don't wear a mask
+
+Problem taken from a [Kaggle competition](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection/data)
+
+
+To solve the problem, 2 models were used: FasterRCNN and YOLO.
+
+Here is an example of the trained model(Faster RCNN) working
+
+![text](images/FaceMaskDetectionFasterRCNN.png)
+
+
+This [notebook](https://github.com/gitmskhl/DLProjects/blob/main/FaceMaskDetectionYOLO.ipynb)  allows you to run detection via a webcam in real time. YOLO model used.
+
+
+
+
 
 ### Vehicle segmentation
 [code](https://github.com/gitmskhl/DLProjects/blob/main/CarSegmentation.ipynb)
