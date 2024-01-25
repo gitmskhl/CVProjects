@@ -1,5 +1,10 @@
 # My DL projects
 
+- Computer Vision
+    - [Flowers Recognition]
+- NLP
+
+
 ## Computer Vision
 
 
@@ -50,12 +55,37 @@ Here is an example of how a trained network works
 ![text](images/carsegmentation.png)
 
 
+### Face Detection
 
-- [Flowers Recognition](khl/DLProjects/blob/main/FlowersRecognition.ipynb)
-    - The implementation of it
-- [Car Segmentation](https://github.com/gitmskhl/DLProjects/blob/main/CarSegmentation.ipynb)
+[code](https://github.com/gitmskhl/DLProjects/blob/main/FaceDetection.ipynb)
 
- 
+It is necessary to detect a person’s face from the image and frame it.
+
+To solve this problem, the YOLO model was used.
+Here are examples of how the trained model works:
+
+![text](images/FaceDetection.png)
+
+[Notebook](https://github.com/gitmskhl/DLProjects/blob/main/FaceDetection.ipynb) allows you to run detection through your computer's webcam in real time.
+
+
+## NLP
+
+### Sentiment analysis for movie reviews
+[code](https://github.com/gitmskhl/DLProjects/blob/main/SentimentWord2Vec.ipynb)
+
+It is necessary to determine the tone of the text based on the review of the film.
+
+This is a binary classification problem.
+The problem is taken from a [Kaggle competition](https://www.kaggle.com/c/word2vec-nlp-tutorial).
+
+To solve the problem, 2 models were used
+- classical approach based on TF-IDF and logistic regression.
+
+- word embeddings are averaged and logistic regression is trained.
+
+Best accuracy on test: 0.89
+
 
 
 
